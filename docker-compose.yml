@@ -6,7 +6,7 @@ services:
     # Imágen a utilizar:
     image: python:3.9.5
     # Nombre del container:
-    container_name: prueba_djangoISDM
+    container_name: prueba_django
     # Comportamiento ante fallos y al iniciar el sistema:
     restart: always
     # Carpetas enlazadas:
@@ -17,7 +17,7 @@ services:
         target: /opt/back_end
     # Puertos enlazados:
     ports:
-        - "8000:8000"
+        - "800:8000"
     # Control de consola:
     stdin_open: true
     tty: true
